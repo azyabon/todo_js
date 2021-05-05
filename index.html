@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <title>Todolist</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">TODOLIST</h1>
+        <input id="input" placeholder="What needs to be done?" type="text" onkeypress="handleKeyPress(event)">
+        <ul id="todolist"></ul>
+        <div class="count">
+            <span id="total">Total:0</span>
+            <span id="clearAll" onclick="clearAll()">ClearAll</span>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
